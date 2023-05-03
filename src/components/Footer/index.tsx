@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Form from "./Form";
 
 import { IoLogoTwitter, IoLogoFacebook } from "react-icons/io";
-import Teste from "../teste";
 import Container from "../Layout/Container";
 import { LINKS } from "@/constants";
 
