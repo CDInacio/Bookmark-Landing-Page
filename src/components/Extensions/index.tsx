@@ -13,7 +13,7 @@ const Extensions = () => {
           We´ve got more browsers in the pipeline. Please do let us know if
           you´ve got a favourite you´d like us to prioritize.
         </Header>
-        <div className="grid gap-[40px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[20px]">
+        <div className="grid gap-[40px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[50px]">
           {EXTENSIONS.map((extension) => (
             <ExtensionItem
               key={extension.id}
