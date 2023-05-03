@@ -19,14 +19,12 @@ const Features = () => {
 
   return (
     <section className="flex flex-col items-center mt-[200px] ">
-      <Container>
-        <div>
-          <Header title="Features">
-            Our aim is to make it quick and easy for you to access your
-            favourite websites. Your bookmarks sync between your devices so you
-            can access them on the go.
-          </Header>
-        </div>
+      <Container className="flex flex-col items-center">
+        <Header title="Features">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </Header>
         <Menu onSetFeature={handleSetFeature} feature={feature} />
         <div className="relative flex flex-col lg:flex-row">
           <FeatureImage featureId={feature.id} sx="lg:mr-[150px]" />
