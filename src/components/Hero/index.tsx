@@ -35,7 +35,7 @@ const Hero = () => {
             alt="illustration hero"
             className=""
           />
-          <span className="-z-10 absolute bottom-0 right-0 w-[300px] xl:w-[400px] h-[200px] rounded-l-[200px]  bg-softBlue rounded-r-[30px]" />
+          <span className="-z-10 absolute bottom-0 left-[40px] top-[40px] min-[500px]:top-[120px]  w-[500px] sm:w-[700px] xl:w-[700px] h-[200px] sm:top-[140px] sm:left-[120px] sm:h-[300px] rounded-l-[200px]  bg-softBlue rounded-r-[30px]" />
         </div>
       </div>
     </Container>
