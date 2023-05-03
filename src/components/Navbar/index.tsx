@@ -39,19 +39,21 @@ const Navbar = () => {
             alt="bookmark logo "
             className={mobileMenu ? "z-[120]" : ""}
           />
-          {!mobileMenu ? (
-            <IoMenuOutline
-              onClick={() => setMobileMenu((prev) => !prev)}
-              size={30}
-              className="cursor-pointer"
-            />
-          ) : (
-            <IoCloseOutline
-              onClick={() => setMobileMenu((prev) => !prev)}
-              size={30}
-              className="cursor-pointer z-[200] text-white"
-            />
-          )}
+          <span className="z-[120] flex lg:hidden">
+            {!mobileMenu ? (
+              <IoMenuOutline
+                onClick={() => setMobileMenu((prev) => !prev)}
+                size={30}
+                className="cursor-pointer"
+              />
+            ) : (
+              <IoCloseOutline
+                onClick={() => setMobileMenu((prev) => !prev)}
+                size={30}
+                className=" cursor-pointer  text-white"
+              />
+            )}
+          </span>
           <div className="hidden lg:flex items-center">
             <ul className="flex">
               {LINKS.map((link) => (
