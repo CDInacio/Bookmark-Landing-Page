@@ -19,10 +19,10 @@ const Hero = () => {
             free.
           </p>
           <div className="mt-[30px] flex  justify-center lg:justify-start ">
-            <Button intent="primary" className="mr-[20px] px-[17px]">
+            <Button intent="primary" className="mr-[20px] px-[13px] text-sm">
               Get it on Chrome
             </Button>
-            <Button intent="terciary" className=" px-[17px]">
+            <Button intent="terciary" className=" px-[13px] text-sm">
               Get it on Firefox
             </Button>
           </div>
