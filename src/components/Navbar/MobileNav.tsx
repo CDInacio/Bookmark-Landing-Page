@@ -12,7 +12,10 @@ const MobileNav = () => {
       <div>
         <ul className="text-white  flex flex-col items-center mt-[130px] [&>*:nth-child(1)]:border-t-[1px]">
           {LINKS.map((link) => (
-            <li className="border-b-[1px] border-neutral-500 w-full text-center py-5 cursor-pointer hover:text-softRed duration-300">
+            <li
+              key={link.id}
+              className="border-b-[1px] border-neutral-500 w-full text-center py-5 cursor-pointer hover:text-softRed duration-300"
+            >
               {link.text}
             </li>
           ))}
