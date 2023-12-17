@@ -1,15 +1,14 @@
 import Image from "next/image";
-import React from "react";
 
-import { IoLogoTwitter, IoLogoFacebook } from "react-icons/io";
-import Container from "../Layout/Container";
 import { LINKS } from "@/constants";
+import { IoLogoFacebook, IoLogoTwitter } from "react-icons/io";
+import Container from "../Layout/Container";
 
 const Footer = () => {
   const iconStyle =
     "text-white mx-[15px] hover:text-softRed duration-300 cursor-pointer";
   return (
-    <footer className="w-screen bg-veryDarkBlue py-[40px] ">
+    <footer className=" bg-veryDarkBlue py-[40px] ">
       <Container className="flex flex-col lg:flex-row lg:justify-between items-center ">
         <div className="flex flex-col lg:flex-row lg:items-center ">
           <Image
