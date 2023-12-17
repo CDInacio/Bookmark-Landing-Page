@@ -8,13 +8,11 @@ import ContactUs from "@/components/Contact";
 import Extensions from "@/components/Extensions";
 import Faq from "@/components/FAQ";
 import Features from "@/components/Features";
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Hero />
       <Features />
       <Extensions />
